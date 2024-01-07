@@ -26,6 +26,11 @@ PRODUCT_PACKAGES += \
     UdfpsIcons
 endif
 
+# Utility Overlays
+PRODUCT_PACKAGES += \
+    HideSmartSpace \
+    SmartSpaceOffset
+
 # Config
 PRODUCT_PACKAGES += \
     SimpleDeviceConfig
